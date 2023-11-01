@@ -1,0 +1,139 @@
+header{
+    background: linear-gradient(rgba(153, 203, 226, 0.9),rgba(6, 96, 137, 0.9)),url(back.avif);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 30px;
+    color: white;
+}
+nav{
+    background-color: rgba(5, 28, 42, 0.5);
+    border-radius: 10px;
+}
+.navbar{
+    width: 95%;
+    position: fixed;
+    z-index: 2;
+}
+nav a{
+    color: rgb(236, 240, 245);
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: rgb(20, 229, 232);
+    text-shadow: 10px;
+}
+#certification
+{
+    background-color: rgb(159, 200, 206);
+    color: rgb(66, 3, 3);
+    font-family: 'Dancing Script';
+    text-decoration: underline;
+    font-weight: 1000;
+}
+
+#banner-content{
+    color: rgb(0, 0, 0);
+}
+
+#banner-content h1{
+    margin-top: -20px;
+}
+#banner-content p{
+    margin-left: 5px;
+}
+#cert-1{
+    background-color: rgb(69, 133, 178);
+}
+#cert-2{
+    background-color: rgb(39, 70, 92);
+}
+#cert-3{
+    background-color: rgb(69, 133, 178);
+}
+
+
+.c-features-icon{
+    border: 2px rgb(191, 191, 191) dotted;
+    width: max-content;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#about1{
+    background: linear-gradient(rgba(37, 69, 120, 0.8),rgba(37, 69, 120, 0.8)), url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid orange;
+    height: 300px;
+    width: max-content;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-top: 80px;
+}
+#about1 img{
+    height: 400px;
+    position: relative;
+    bottom: 100px;
+}
+#about2 h5{
+    text-transform: uppercase;
+}
+.bord{
+    border-style: outset;
+    border-color: rgb(0, 221, 255);
+    border-radius: 10px;
+}
+.achievement
+{
+    font-family: 'Dancing Script';
+    font: bold;
+    font-size: xx-large;
+    font-weight: 1000;
+    text-decoration: underline;
+}
+hr{
+    width: 80px;
+    margin-left: 0;
+}
+#about2 span{
+    background-color: rgb(214, 214, 214);
+    border: 1px solid rgb(58, 58, 58);
+    padding: 3px 8px;
+    line-height: 50px;
+}
+#about2 a{
+    color: black;
+    border: 1px solid black;
+    padding: 7px;
+}
+.bg-secondary{
+    background-color: rgb(225, 225, 225) !important;
+}
+footer{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+footer img{
+    height: 60px;
+}
+footer iframe{
+    height: 200px;
+    width: 100%;
+    border: 5px solid orange;
+}
+#gallery img{
+    height: 200px;
+    margin: 10px;
+    transition: 1s;
+}
+#gallery img:hover{
+    transform: scale(1.2);
+}
+#top-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
